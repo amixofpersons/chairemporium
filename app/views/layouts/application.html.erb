@@ -7,8 +7,8 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<div class='<%= controller.controller_name %>'><%= yield %>
+</div>
 
-<%= yield %>
-<%= render 'shared/navbar' %>
 </body>
 </html>

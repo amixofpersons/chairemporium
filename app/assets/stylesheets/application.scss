@@ -13,3 +13,14 @@
  */
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+       width:1500px;
+       height:750px;
+       margin: auto;
+  }
+
+.carousel-inner{
+	margin-bottom: 15px;
+}
